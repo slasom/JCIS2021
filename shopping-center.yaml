@@ -10,7 +10,7 @@ info:
     url: 'http://spilab.es/'
     email: spilab.uex@gmail.com
 tags:
-  - name: Map
+  - name: User
 paths:
   /temperature:
     get:
