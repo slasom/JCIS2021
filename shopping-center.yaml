@@ -18,7 +18,7 @@ paths:
       operationId: getTemperature
       tags:
       - User
-      x-aggregation:
+      x-dac:
         operand: User.temperature
         operator:
           type: math
@@ -37,7 +37,7 @@ paths:
       operationId: getLocation
       tags:
       - User
-      x-aggregation:
+      x-dac:
         operand: User.location
         operator:
           type: specfic
@@ -56,7 +56,7 @@ paths:
       operationId: getMusic
       tags:
       - User
-      x-aggregation:
+      x-dac:
         operand: User.music
         operator:
           type: specfic
